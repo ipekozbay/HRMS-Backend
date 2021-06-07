@@ -1,9 +1,13 @@
 package kodlama.io.Hrms.business.concrete;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
+
 import kodlama.io.Hrms.business.abstracts.JobPositionService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
@@ -25,13 +29,28 @@ public class JobPositionManager implements JobPositionService {
 
 	@Override
 	public DataResult<List<JobPosition>> getAll() {
-		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll(), "job position listed");
+		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll());
 	}
 
 	@Override
 	public Result add(JobPosition jobPosition) {
+
 		this.jobPositionDao.save(jobPosition);
-		return new SuccessResult("  job position added.");
+		return new SuccessResult("Job position added.");
+	}
+
+	@Override
+	public DataResult<List<JobPosition>> getAll(int pageNo, int pageSize) {
+
+		Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
+
+		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll(pageable).getContent());
+	}
+
+	@Override
+	public DataResult<List<JobPosition>> getAllSorted() {
+		Sort sort = Sort.by(Sort.Direction.ASC, "jobPosition");
+		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll(sort), "basarili");
 	}
 
 }
