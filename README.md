@@ -1,6 +1,9 @@
 
 # Human Resources Management System
 
+![unknown](https://user-images.githubusercontent.com/72815766/121091766-32e85780-c7f3-11eb-92f8-d6f2f81941df.png)
+
+
 ### ✔ Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
 
 Kabul Kriterleri:
