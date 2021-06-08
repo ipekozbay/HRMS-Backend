@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "coverletters_cv")
+@Table(name = "experiences_cv")
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExperienceToCV extends Base {
