@@ -1,5 +1,6 @@
 
-# Human Resources Management System ![unknown](https://user-images.githubusercontent.com/72815766/121215529-c61f9c80-c888-11eb-8a0a-65b912bf0128.png)
+# Human Resources Management System 
+                   ![unknown](https://user-images.githubusercontent.com/72815766/121215529-c61f9c80-c888-11eb-8a0a-65b912bf0128.png)
 
 
    ![unknown](https://user-images.githubusercontent.com/72815766/121091766-32e85780-c7f3-11eb-92f8-d6f2f81941df.png)
