@@ -22,7 +22,7 @@ CREATE TABLE public.employers (
         id integer primary key not null,
         employer_id integer NOT NULL,
         employee_id integer NOT NULL,
-        creat_at data NOT NULL,
+        creat_at data DEFAULT CURRENT_DATE NOT NULL,
         is_active boolean,
         is_deleted boolean
  );
@@ -91,7 +91,7 @@ CREATE TABLE public.employees
          is_active boolean DEFAULT true,
          is_deleted boolean DEFAULT false,
 	 language character varying NOT NULL,
-         jobseeker_id integer NOT NULL
+         jobseeker_id integer NOT NULL,
          level integer NOT NULL
 
  );
@@ -151,7 +151,7 @@ CREATE TABLE public.cities
        id integer NOT NULL,
        name character varying(75) NOT NULL,
        is_active boolean DEFAULT true,
-       is_deleted boolean DEFAULT false,
+       is_deleted boolean DEFAULT false
 );
  
  CREATE TABLE public.job_advert
