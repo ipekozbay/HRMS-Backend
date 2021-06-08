@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "jobseekers")
 @Data
-
 @NoArgsConstructor
 @AllArgsConstructor
 public class Jobseeker extends Base {
