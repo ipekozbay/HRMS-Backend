@@ -1,6 +1,7 @@
 package kodlama.io.Hrms.entities.concrete;
 
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;

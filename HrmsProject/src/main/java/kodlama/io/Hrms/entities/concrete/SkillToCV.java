@@ -13,10 +13,10 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 
-@Table(name = "links_cv")
+@Table(name = "skills_cv")
 @AllArgsConstructor
 @NoArgsConstructor
-public class SkillToCV {
+public class SkillToCV extends Base{
 
 	@Column(name = "skill_name")
 	private String skllName;

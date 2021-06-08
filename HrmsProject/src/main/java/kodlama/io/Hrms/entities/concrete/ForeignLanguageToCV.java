@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +22,11 @@ public class ForeignLanguageToCV extends Base {
 
 	@Column(name = "language")
 	private String language;
+	
+	@Min(value = 1)
+	@Max(value = 5)
+	@Column(name = "level")
+	private int level;
 
 	@ManyToOne()
 	@JoinColumn(name = "jobseeker_id")

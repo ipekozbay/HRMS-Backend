@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "cv_foreign_languages")
+@Table(name = "images_cv")
 @NoArgsConstructor
 @AllArgsConstructor
 public class ImageToCV extends Base {

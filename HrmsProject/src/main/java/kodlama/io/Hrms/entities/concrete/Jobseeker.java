@@ -32,8 +32,8 @@ public class Jobseeker extends Base {
 	@Column(name = "job")
 	private String job;
 
-	@Column(name = "nationality_number")
-	private String nationalityNumber;
+	@Column(name = "nationalIdentity")
+	private String nationalIdentity;
 
 	@Column(name = "date_of_birth")
 	private LocalDate dateOfBirth;

@@ -1,5 +1,7 @@
 package kodlama.io.Hrms.entities.concrete;
 
+import java.time.LocalDate;
+
 import javax.persistence.Column;
 
 import javax.persistence.Entity;
@@ -9,17 +11,28 @@ import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Data
+@EqualsAndHashCode(callSuper = false)
 @Table(name = "coverletters_cv")
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExperienceToCV extends Base {
 
-	@Column(name = "details")
-	private String detail;
+	@Column(name = "working_place")
+	private String workingPlace;
+
+	@Column(name = "mission")
+	private String mission;
+
+	@Column(name = "start_at")
+	private LocalDate startAt;
+
+	@Column(name = "end_at", nullable = true)
+	private LocalDate endAt;
 
 	@ManyToOne()
 	@JoinColumn(name = "jobseeker_id")

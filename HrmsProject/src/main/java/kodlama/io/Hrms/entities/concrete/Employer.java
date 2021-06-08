@@ -25,6 +25,9 @@ public class Employer extends Base {
 	@Column(name = "website")
 	private String website;
 
+	@Column(name = "user_id")
+	private String userId;
+	
 	@Column(name = "phone_number")
 	private String phoneNumber;
 
