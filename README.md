@@ -3,7 +3,7 @@
  
 
 
-  ###    ![unknown](https://user-images.githubusercontent.com/72815766/121091766-32e85780-c7f3-11eb-92f8-d6f2f81941df.png)
+  ###               ![unknown](https://user-images.githubusercontent.com/72815766/121091766-32e85780-c7f3-11eb-92f8-d6f2f81941df.png)
 
 
    ![insan-kaynaklari](https://user-images.githubusercontent.com/72815766/121092631-8a3af780-c7f4-11eb-9e4d-64c479747a20.jpg)
