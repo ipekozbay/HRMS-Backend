@@ -6,5 +6,4 @@ public class FakeMernisService {
 		System.out.println(firstName + " " + lastName + " is valid person.");
 		return true;
 	}
-
 }
