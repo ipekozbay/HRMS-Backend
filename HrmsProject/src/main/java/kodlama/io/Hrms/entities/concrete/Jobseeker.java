@@ -24,6 +24,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class Jobseeker extends Base {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
