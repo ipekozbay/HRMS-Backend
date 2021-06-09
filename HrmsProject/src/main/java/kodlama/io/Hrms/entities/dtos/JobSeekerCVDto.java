@@ -12,7 +12,6 @@ import kodlama.io.Hrms.entities.concrete.SkillToCV;
 
 public class JobSeekerCVDto {
 	public Jobseeker jobskeer;
-
 	public List<ExperienceToCV> experiences;
 	public List<ForeignLanguageToCV> foreignLanguage;
 	public ImageToCV image;
