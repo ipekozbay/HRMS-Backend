@@ -16,12 +16,10 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-<<<<<<< HEAD
+
 @EqualsAndHashCode(callSuper = false)
-@Table(name = "coverletters_cv")
-=======
+
 @Table(name = "experiences_cv")
->>>>>>> 096b0694afdd6acbc360ec23b6f4be07e55cf29e
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExperienceToCV extends Base {

@@ -39,18 +39,4 @@ public class JobPositionManager implements JobPositionService {
 		return new SuccessResult("Job position added.");
 	}
 
-	@Override
-	public DataResult<List<JobPosition>> getAll(int pageNo, int pageSize) {
-
-		Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
-
-		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll(pageable).getContent());
-	}
-
-	@Override
-	public DataResult<List<JobPosition>> getAllSorted() {
-		Sort sort = Sort.by(Sort.Direction.ASC, "jobPosition");
-		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findAll(sort), "basarili");
-	}
-
 }

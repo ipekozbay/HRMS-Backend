@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -39,5 +41,15 @@ public class JobAdvert extends Base {
 
 	@Column(name = "is_close")
 	private boolean isClose;
+	
+	@ManyToOne
+	@JoinColumn(name = "job_position_id")
+	private JobPosition jobPosition;
 
+	@Column(name = "open_position_count")
+	private int openPositionCount;
+	
+	@ManyToOne
+	@JoinColumn(name = "city_id")
+	private City city;
 }

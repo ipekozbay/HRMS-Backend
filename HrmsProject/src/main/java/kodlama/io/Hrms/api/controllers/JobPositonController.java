@@ -40,14 +40,4 @@ public class JobPositonController {
 
 	}
 
-	@GetMapping("/getallByPage")
-	DataResult<List<JobPosition>> getAll(int pageNo, int pageSize) {
-		return this.jobPositionService.getAll(pageNo, pageSize);
-
-	}
-
-	@GetMapping("/getallAsc")
-	public DataResult<List<JobPosition>> getAllSorted() {
-		return this.jobPositionService.getAllSorted();
-	}
 }
