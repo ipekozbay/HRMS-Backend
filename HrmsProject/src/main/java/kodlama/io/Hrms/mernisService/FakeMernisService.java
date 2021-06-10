@@ -1,9 +1,11 @@
 package kodlama.io.Hrms.mernisService;
 
+import java.time.LocalDate;
+
 public class FakeMernisService {
 
-	public boolean ValidatePersonal(String firstName, String lastName) {
-		System.out.println(firstName + " " + lastName + " is valid person.");
+	public boolean ValidatePersonal(long TCKimlikNo, java.lang.String ad, java.lang.String soyad, LocalDate dogumYili) {
+	
 		return true;
 	}
 }

@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "coverletters_cv")
+@Table(name = "cover_letters_cv")
 @NoArgsConstructor
 @AllArgsConstructor
 public class CoverLetterToCV extends Base {

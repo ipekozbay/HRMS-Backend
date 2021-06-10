@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,8 +18,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class Employer extends Base {
+@JsonIgnoreProperties({"hibernateLazyInitializer","handler","jobAdverts"})
+public class Employer extends User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
