@@ -84,3 +84,13 @@ Adaylar sisteme github adreslerini girebilmelidir.
 Adaylar sisteme linkedin adreslerini girebilmelidir.
 Adaylar bildikleri programlama dillerini veya teknolojilerini sisteme girebilmelidir. (Programlama/Teknoloji adı) Örneğin; React
 Adaylar sisteme ön yazı ekleyebilmelidir. (Örneğin: Çalışmayı çok severim....)
+
+### Dependencies:
+
+Lombok
+Spring Boot DevTools
+Spring Web
+Spring Data JPA
+Spring JPA/Hibernate
+PostgreSQL Driver
+Swagger
