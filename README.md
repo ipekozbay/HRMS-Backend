@@ -87,10 +87,10 @@ Adaylar sisteme ön yazı ekleyebilmelidir. (Örneğin: Çalışmayı çok sever
 
 ### Dependencies:
 
-###Lombok
-###Spring Boot DevTools
-###Spring Web
-###Spring Data JPA
-###Spring JPA/Hibernate
-###PostgreSQL Driver
-###Swagger
+### Lombok
+### Spring Boot DevTools
+### Spring Web
+### Spring Data JPA
+### Spring JPA/Hibernate
+### PostgreSQL Driver
+### Swagger
