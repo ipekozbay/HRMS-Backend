@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.SchoolToCVDao;
-import kodlama.io.Hrms.entities.concrete.SchoolToCV;
+import kodlama.io.Hrms.entities.concretes.SchoolToCV;
 
 @Service
 public class SchoolToCVManager implements SchoolToCVService {

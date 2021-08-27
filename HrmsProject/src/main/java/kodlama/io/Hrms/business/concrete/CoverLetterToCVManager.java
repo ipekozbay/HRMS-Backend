@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.CoverLetterToCVDao;
-import kodlama.io.Hrms.entities.concrete.CoverLetterToCV;
+import kodlama.io.Hrms.entities.concretes.CoverLetterToCV;
 
 @Service
 public class CoverLetterToCVManager implements CoverLetterToCVService {

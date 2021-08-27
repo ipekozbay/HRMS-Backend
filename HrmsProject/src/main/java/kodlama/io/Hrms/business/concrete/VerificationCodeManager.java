@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.VerificationCodeDao;
-import kodlama.io.Hrms.entities.concrete.VerificationCode;
+import kodlama.io.Hrms.entities.concretes.VerificationCode;
 
 @Service
 public class VerificationCodeManager implements VerificationCodeService {

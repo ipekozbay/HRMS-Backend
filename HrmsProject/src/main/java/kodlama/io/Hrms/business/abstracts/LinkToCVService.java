@@ -4,7 +4,7 @@ import java.util.List;
 
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.LinkToCV;
+import kodlama.io.Hrms.entities.concretes.LinkToCV;
 
 public interface LinkToCVService {
 	Result add(LinkToCV linkForCV);

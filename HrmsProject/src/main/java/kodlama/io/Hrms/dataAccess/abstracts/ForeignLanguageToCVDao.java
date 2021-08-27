@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import kodlama.io.Hrms.entities.concrete.ForeignLanguageToCV;
+import kodlama.io.Hrms.entities.concretes.ForeignLanguageToCV;
 
 public interface ForeignLanguageToCVDao extends JpaRepository<ForeignLanguageToCV, Integer> {
 	ForeignLanguageToCV getById(int id);

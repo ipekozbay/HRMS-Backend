@@ -12,7 +12,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.JobAdvertDao;
-import kodlama.io.Hrms.entities.concrete.JobAdvert;
+import kodlama.io.Hrms.entities.concretes.JobAdvert;
 
 @Service
 public class JobAdvertManagerr implements JobAdvertService {

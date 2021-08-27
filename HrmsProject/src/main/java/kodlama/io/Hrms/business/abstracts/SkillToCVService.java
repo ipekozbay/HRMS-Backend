@@ -4,7 +4,7 @@ import java.util.List;
 
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.SkillToCV;
+import kodlama.io.Hrms.entities.concretes.SkillToCV;
 
 public interface SkillToCVService {
 	Result add(SkillToCV programmingSkillForCV);

@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.ImageToCVDao;
-import kodlama.io.Hrms.entities.concrete.ImageToCV;
+import kodlama.io.Hrms.entities.concretes.ImageToCV;
 
 @Service
 public class ImageToCVManager implements ImageToCVService {

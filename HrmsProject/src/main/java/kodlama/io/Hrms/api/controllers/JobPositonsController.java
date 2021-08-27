@@ -14,11 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.JobPositionService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.JobPosition;
+import kodlama.io.Hrms.entities.concretes.JobPosition;
 
 @RestController
-@RequestMapping("api/jobPosition")
+@RequestMapping("/api/jobPosition")
 @CrossOrigin
+
 public class JobPositonsController {
 
 	private JobPositionService jobPositionService;

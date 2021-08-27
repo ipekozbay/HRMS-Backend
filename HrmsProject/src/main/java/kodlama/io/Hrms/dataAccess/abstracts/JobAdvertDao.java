@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import kodlama.io.Hrms.entities.concrete.JobAdvert;
+import kodlama.io.Hrms.entities.concretes.JobAdvert;
 
 public interface JobAdvertDao extends JpaRepository<JobAdvert, Integer> {
 	JobAdvert getById(int id);

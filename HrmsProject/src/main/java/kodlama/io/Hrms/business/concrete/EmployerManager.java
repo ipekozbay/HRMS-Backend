@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.EmployerDao;
-import kodlama.io.Hrms.entities.concrete.Employer;
+import kodlama.io.Hrms.entities.concretes.Employer;
 
 @Service
 public class EmployerManager implements EmployerService {

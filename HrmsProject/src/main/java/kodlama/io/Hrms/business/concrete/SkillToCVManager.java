@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.SkillToCVDao;
-import kodlama.io.Hrms.entities.concrete.SkillToCV;
+import kodlama.io.Hrms.entities.concretes.SkillToCV;
 
 @Service
 public class SkillToCVManager implements SkillToCVService {

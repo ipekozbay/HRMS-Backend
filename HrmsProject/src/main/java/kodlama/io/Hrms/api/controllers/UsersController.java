@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.UserService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.User;
+import kodlama.io.Hrms.entities.concretes.User;
 
 @RestController
 @RequestMapping("/api/users")

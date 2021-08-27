@@ -2,13 +2,13 @@ package kodlama.io.Hrms.entities.dtos;
 
 import java.util.List;
 
-import kodlama.io.Hrms.entities.concrete.ExperienceToCV;
-import kodlama.io.Hrms.entities.concrete.ForeignLanguageToCV;
-import kodlama.io.Hrms.entities.concrete.ImageToCV;
-import kodlama.io.Hrms.entities.concrete.Jobseeker;
-import kodlama.io.Hrms.entities.concrete.LinkToCV;
-import kodlama.io.Hrms.entities.concrete.SchoolToCV;
-import kodlama.io.Hrms.entities.concrete.SkillToCV;
+import kodlama.io.Hrms.entities.concretes.ExperienceToCV;
+import kodlama.io.Hrms.entities.concretes.ForeignLanguageToCV;
+import kodlama.io.Hrms.entities.concretes.ImageToCV;
+import kodlama.io.Hrms.entities.concretes.Jobseeker;
+import kodlama.io.Hrms.entities.concretes.LinkToCV;
+import kodlama.io.Hrms.entities.concretes.SchoolToCV;
+import kodlama.io.Hrms.entities.concretes.SkillToCV;
 
 public class JobSeekerCVDto {
 	public Jobseeker jobskeer;

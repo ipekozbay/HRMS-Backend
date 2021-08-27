@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.ExperienceToCVDao;
-import kodlama.io.Hrms.entities.concrete.ExperienceToCV;
+import kodlama.io.Hrms.entities.concretes.ExperienceToCV;
 
 @Service
 public class ExperienceToCVManager implements ExperienceToCVService {

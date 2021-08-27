@@ -16,8 +16,8 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.JobSeekerDao;
-import kodlama.io.Hrms.entities.concrete.ForeignLanguageToCV;
-import kodlama.io.Hrms.entities.concrete.Jobseeker;
+import kodlama.io.Hrms.entities.concretes.ForeignLanguageToCV;
+import kodlama.io.Hrms.entities.concretes.Jobseeker;
 import kodlama.io.Hrms.entities.dtos.JobSeekerCVDto;
 
 @Service
@@ -75,7 +75,7 @@ public class JobseekerManager implements JobseekerService {
 
 	@Override
 	public DataResult<Jobseeker> getJobseekerByNationalId(String nationalId) {
-		return new SuccessDataResult<Jobseeker>(this.jobseekerDao.findJobseekerByNationalityId(nationalId));
+		return new SuccessDataResult<Jobseeker>(this.jobseekerDao.getByNationalIdentity(nationalId));
 	}
 
 	@Override

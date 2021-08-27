@@ -11,7 +11,7 @@ import kodlama.io.Hrms.core.utilities.results.Result;
 import kodlama.io.Hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.Hrms.core.utilities.results.SuccessResult;
 import kodlama.io.Hrms.dataAccess.abstracts.EmployeeDao;
-import kodlama.io.Hrms.entities.concrete.Employee;
+import kodlama.io.Hrms.entities.concretes.Employee;
 
 @Service
 public class EmployeeManager implements EmployeeService {

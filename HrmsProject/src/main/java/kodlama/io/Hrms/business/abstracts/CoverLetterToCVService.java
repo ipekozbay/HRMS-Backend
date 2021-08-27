@@ -4,7 +4,7 @@ import java.util.List;
 
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.CoverLetterToCV;
+import kodlama.io.Hrms.entities.concretes.CoverLetterToCV;
 
 public interface CoverLetterToCVService {
 	DataResult<List<CoverLetterToCV>> getAll();

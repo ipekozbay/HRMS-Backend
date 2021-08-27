@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.SchoolToCVService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.SchoolToCV;
+import kodlama.io.Hrms.entities.concretes.SchoolToCV;
 
 @RestController
 @RequestMapping("/api/schools")

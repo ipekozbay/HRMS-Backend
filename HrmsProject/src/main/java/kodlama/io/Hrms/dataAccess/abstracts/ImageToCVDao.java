@@ -2,7 +2,7 @@ package kodlama.io.Hrms.dataAccess.abstracts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import kodlama.io.Hrms.entities.concrete.ImageToCV;
+import kodlama.io.Hrms.entities.concretes.ImageToCV;
 
 public interface ImageToCVDao extends JpaRepository<ImageToCV, Integer> {
 	ImageToCV getById(int id);

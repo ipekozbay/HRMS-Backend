@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.JobseekerService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.Jobseeker;
+import kodlama.io.Hrms.entities.concretes.Jobseeker;
 import kodlama.io.Hrms.entities.dtos.JobSeekerCVDto;
 
 @RestController

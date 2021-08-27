@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.SkillToCVService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.SkillToCV;
+import kodlama.io.Hrms.entities.concretes.SkillToCV;
 
 @RestController
 @RequestMapping("/api/skills")

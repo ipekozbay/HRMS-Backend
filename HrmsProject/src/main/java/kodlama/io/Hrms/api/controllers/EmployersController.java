@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.EmployerService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.Employer;
+import kodlama.io.Hrms.entities.concretes.Employer;
 
 @RestController
 @RequestMapping("/api/employers")

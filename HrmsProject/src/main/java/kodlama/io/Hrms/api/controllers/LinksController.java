@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlama.io.Hrms.business.abstracts.LinkToCVService;
 import kodlama.io.Hrms.core.utilities.results.DataResult;
 import kodlama.io.Hrms.core.utilities.results.Result;
-import kodlama.io.Hrms.entities.concrete.LinkToCV;
+import kodlama.io.Hrms.entities.concretes.LinkToCV;
 
 @RestController
 @RequestMapping("/api/links")
