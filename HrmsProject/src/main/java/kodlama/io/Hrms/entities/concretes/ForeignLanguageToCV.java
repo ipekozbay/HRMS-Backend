@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@EqualsAndHashCode(callSuper=false)
+
 @Table(name = "foreign_languages_cv")
 @NoArgsConstructor
 @AllArgsConstructor

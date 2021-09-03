@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import kodlama.io.Hrms.business.abstracts.ExperienceToCVService;
+import kodlama.io.Hrms.business.abstracts.ForeignLanguageToCVService;
 import kodlama.io.Hrms.business.abstracts.ImageToCVService;
 import kodlama.io.Hrms.business.abstracts.JobseekerService;
 import kodlama.io.Hrms.business.abstracts.LinkToCVService;
@@ -24,8 +25,9 @@ import kodlama.io.Hrms.entities.dtos.JobSeekerCVDto;
 public class JobseekerManager implements JobseekerService {
 
 	private JobSeekerDao jobseekerDao;
+	
 	private ExperienceToCVService experienceToCVService;
-	private ForeignLanguageToCV foreignLanguageToCVService;
+	private ForeignLanguageToCVService foreignLanguageToCVService;
 	private ImageToCVService imageToCVService;
 	private LinkToCVService linkToCVService;
 	private SkillToCVService skillToCVService;
@@ -33,7 +35,7 @@ public class JobseekerManager implements JobseekerService {
 
 	@Autowired
 	public JobseekerManager(JobSeekerDao jobseekerDao, ExperienceToCVService experienceToCVService,
-			ForeignLanguageToCV foreignLanguageToCVService, ImageToCVService imageToCVService,
+			ForeignLanguageToCVService foreignLanguageToCVService, ImageToCVService imageToCVService,
 			LinkToCVService linkToCVService, SkillToCVService skillToCVService, SchoolToCVService schoolToCVService) {
 		super();
 		this.jobseekerDao = jobseekerDao;

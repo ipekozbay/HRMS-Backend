@@ -46,7 +46,7 @@ public class User {
 	private String lastName;
 
 	@Column(name = "email")
-	private String eMail;
+	private String mail;
 
 	@Column(name = "password")
 	private String password;

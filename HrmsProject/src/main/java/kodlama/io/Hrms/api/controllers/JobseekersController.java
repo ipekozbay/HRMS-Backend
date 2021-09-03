@@ -50,7 +50,7 @@ public class JobseekersController {
 	}
 
 	@GetMapping("/getJobseekerCVById")
-	public DataResult<JobSeekerCVDto> getJobseekerCVById(@RequestParam int id) {
+	public DataResult<JobSeekerCVDto> getJobseekerCVById( int id) {
 		return this.jobseekerService.getJobseekerCVById(id);
 	}
 }
